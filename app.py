@@ -47,42 +47,42 @@ units = {
             FORMAT_IMPERIAL: "feet/sec^2",
             LATEX_METRIC: r'''\frac{meters}{second^2}''',
             LATEX_IMPERIAL: r'''\frac{feet}{second^2}''',
-            LAMBDA_TO_METRIC: lambda x: (x * 3.28084),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 3.28084)
+            LAMBDA_TO_METRIC: lambda x: (x * 0.30479),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.30479)
         },
         {
             FORMAT_METRIC: "meters/sec^2", 
             FORMAT_IMPERIAL: "inches/sec^2", 
             LATEX_METRIC: r'''\frac{meters}{second^2}''',
             LATEX_IMPERIAL: r'''\frac{inches}{second^2}''',
-            LAMBDA_TO_METRIC: lambda x: (x * 39.3701),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 39.3701)
+            LAMBDA_TO_METRIC: lambda x: (x * 0.02539),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.02539)
         }
     ],
     UNIT_AREA: [
         {
-            FORMAT_METRIC: "sqaure cm", 
-            FORMAT_IMPERIAL: "sqaure in",
+            FORMAT_METRIC: "sq. centimeters", 
+            FORMAT_IMPERIAL: "sq. inches",
             LATEX_METRIC: r'''{centimeters^2}''',
             LATEX_IMPERIAL: r'''{inches^2}''',
-            LAMBDA_TO_METRIC: lambda x: (x * 0.155),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.155)
+            LAMBDA_TO_METRIC: lambda x: (x * 6.4516),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 6.4516)
         },
         {
-            FORMAT_METRIC: "square meters", 
-            FORMAT_IMPERIAL: "square yards",
+            FORMAT_METRIC: "sq. meters", 
+            FORMAT_IMPERIAL: "sq. yards",
             LATEX_METRIC: r'''{meters^2}''',
             LATEX_IMPERIAL: r'''{yards^2}''',
-            LAMBDA_TO_METRIC: lambda x: (x * 1.19599),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 1.19599)
+            LAMBDA_TO_METRIC: lambda x: (x * 0.836127),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.836127)
         },
         {
-            FORMAT_METRIC: "square km", 
-            FORMAT_IMPERIAL: "square miles",
+            FORMAT_METRIC: "sq. kilometers", 
+            FORMAT_IMPERIAL: "sq. miles",
             LATEX_METRIC: r'''{kilometers^2}''',
             LATEX_IMPERIAL: r'''{miles^2}''',
-            LAMBDA_TO_METRIC: lambda x: (x * 0.386102),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.386102)
+            LAMBDA_TO_METRIC: lambda x: (x * 2.58999),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 2.58999)
         }
    ],
     UNIT_DENSITY: [
@@ -91,24 +91,24 @@ units = {
             FORMAT_IMPERIAL: "lbs/in^3",
             LATEX_METRIC: r'''\frac{grams}{centimeter^3}''',
             LATEX_IMPERIAL: r'''\frac{pounds}{inch^3}''',
-            LAMBDA_TO_METRIC: lambda x: (x * 0.0361273),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.0361273)
+            LAMBDA_TO_METRIC: lambda x: (x * 27.679904),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 27.679904)
         },
         {
             FORMAT_METRIC: "grams/cm^3", 
             FORMAT_IMPERIAL: "lbs/ft^3",
             LATEX_METRIC: r'''\frac{grams}{centimeter^3}''',
             LATEX_IMPERIAL: r'''\frac{pounds}{foot^3}''',
-            LAMBDA_TO_METRIC: lambda x: (x * 62.4279737),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 62.4279737)
+            LAMBDA_TO_METRIC: lambda x: (x * 0.0160184),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.0160184)
         },
         {
             FORMAT_METRIC: "kg/meter^3", 
             FORMAT_IMPERIAL: "lb/foot^3",
             LATEX_METRIC: r'''\frac{kilograms}{meter^3}''',
             LATEX_IMPERIAL: r'''\frac{pounds}{foot^3}''',
-            LAMBDA_TO_METRIC: lambda x: (x * 0.0624279),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.0624279)
+            LAMBDA_TO_METRIC: lambda x: (x * 16.0184634),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 16.0184634)
         },
     ],
     UNIT_ENERGY: [
@@ -117,8 +117,8 @@ units = {
             FORMAT_IMPERIAL: "foot-lbs",
             LATEX_METRIC: r'''BTUs''',
             LATEX_IMPERIAL: r'''foot-pounds''',
-            LAMBDA_TO_METRIC: lambda x: (x * 778.1692972),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 778.1692972)
+            LAMBDA_TO_METRIC: lambda x: (x * 0.00128407),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.00128407)
         }
     ],
     UNIT_LENGTH: [
@@ -127,24 +127,24 @@ units = {
             FORMAT_IMPERIAL: "inches",
             LATEX_METRIC: r'''millimeters''',
             LATEX_IMPERIAL: r'''inches''',
-            LAMBDA_TO_METRIC: lambda x: (x * 0.0393701),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.0393701)
+            LAMBDA_TO_METRIC: lambda x: (x * 25.4),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 25.4)
         },
         {
             FORMAT_METRIC: "meters",
             FORMAT_IMPERIAL: "feet",
             LATEX_METRIC: r'''meters''',
             LATEX_IMPERIAL: r'''feet''',
-            LAMBDA_TO_METRIC: lambda x: (x * 3.28084),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 3.28084)
+            LAMBDA_TO_METRIC: lambda x: (x * 0.3048),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.3048)
         },
         {
             FORMAT_METRIC: "kilometers",
             FORMAT_IMPERIAL: "miles",
             LATEX_METRIC: r'''kilometers''',
             LATEX_IMPERIAL: r'''miles''',
-            LAMBDA_TO_METRIC: lambda x: (x * 0.621371),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.621371)
+            LAMBDA_TO_METRIC: lambda x: (x * 1.60934),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 1.60934)
         }
     ],
     UNIT_MASS: [
@@ -153,24 +153,24 @@ units = {
             FORMAT_IMPERIAL: "ounces",
             LATEX_METRIC: r'''grams''',
             LATEX_IMPERIAL: r'''ounces''',
-            LAMBDA_TO_METRIC: lambda x: (x * 0.035274),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.035274)
+            LAMBDA_TO_METRIC: lambda x: (x * 28.3495),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 28.3495)
         },
         {
             FORMAT_METRIC: "grams",
             FORMAT_IMPERIAL: "pounds",
             LATEX_METRIC: r'''grams''',
             LATEX_IMPERIAL: r'''pounds''',
-            LAMBDA_TO_METRIC: lambda x: (x * 0.00220462),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.00220462)
+            LAMBDA_TO_METRIC: lambda x: (x * 453.592),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 453.592)
         },
         {
             FORMAT_METRIC: "kilograms",
             FORMAT_IMPERIAL: "pounds",
             LATEX_METRIC: r'''kilograms''',
             LATEX_IMPERIAL: r'''pounds''',
-            LAMBDA_TO_METRIC: lambda x: (x * 2.20462),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 2.20462)
+            LAMBDA_TO_METRIC: lambda x: (x * 0.453592),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.453592)
         }
     ],
     UNIT_POWER: [
@@ -179,26 +179,26 @@ units = {
             FORMAT_IMPERIAL: "ft-lbs/sec",
             LATEX_METRIC: r'''\frac{BTUs}{hour}''',
             LATEX_IMPERIAL: r'''\frac{foot-pounds}{second}''',
-            LAMBDA_TO_METRIC: lambda x: (x * 0.216158),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.216158)
+            LAMBDA_TO_METRIC: lambda x: (x * 4.6293385),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 4.6293385)
         }
     ],
     UNIT_PRESSURE: [
         {
-            FORMAT_METRIC: "N/m^2",
+            FORMAT_METRIC: "Newton/meter^2",
             FORMAT_IMPERIAL: "psi",
             LATEX_METRIC: r'''\frac{Newton}{meter^2}=Pa''',
             LATEX_IMPERIAL: r'''\frac{pounds}{inch^2}''',
-            LAMBDA_TO_METRIC: lambda x: (x * 0.000145038),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.000145038)
+            LAMBDA_TO_METRIC: lambda x: (x * 6894.757),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 6894.757)
         },
         {
-            FORMAT_METRIC: "N/mm^2",
+            FORMAT_METRIC: "Newton/millimeter^2",
             FORMAT_IMPERIAL: "psi",
             LATEX_METRIC: r'''\frac{Newton}{millimeter^2}=MPa''',
             LATEX_IMPERIAL: r'''\frac{pounds}{inch^2}''',
-            LAMBDA_TO_METRIC: lambda x: (x * 145.038),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 145.038)
+            LAMBDA_TO_METRIC: lambda x: (x * 0.0068947),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.0068947)
         }
     ],
     UNIT_SPEED: [
@@ -207,16 +207,16 @@ units = {
             FORMAT_IMPERIAL: "feet/sec",
             LATEX_METRIC: r'''\frac{meters}{second}''',
             LATEX_IMPERIAL: r'''\frac{feet}{second}''',
-            LAMBDA_TO_METRIC: lambda x: (x * 3.28084),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 3.28084)
+            LAMBDA_TO_METRIC: lambda x: (x * 0.3048),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.3048)
         },
         {
             FORMAT_METRIC: "kilometers/hour",
             FORMAT_IMPERIAL: "miles/hour",
             LATEX_METRIC: r'''\frac{kilometers}{hour}''',
             LATEX_IMPERIAL: r'''\frac{miles}{hour}''',
-            LAMBDA_TO_METRIC: lambda x: (x * 0.6213712),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.6213712)
+            LAMBDA_TO_METRIC: lambda x: (x * 1.6093438),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 1.6093438)
         }
     ],
     UNIT_TEMPERATURE: [
@@ -243,55 +243,53 @@ units = {
             FORMAT_IMPERIAL: "cubic inches",
             LATEX_METRIC: r'''liters''',
             LATEX_IMPERIAL: r'''inches^3''',
-            LAMBDA_TO_METRIC: lambda x: (x * 0.0163871),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.0163871)
+            LAMBDA_TO_METRIC: lambda x: (x * 0.016387),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.016387)
         },
         {
             FORMAT_METRIC: "liters",
             FORMAT_IMPERIAL: "gallons",
             LATEX_METRIC: r'''liters''',
             LATEX_IMPERIAL: r'''gallons''',
-            LAMBDA_TO_METRIC: lambda x: (x * 0.264172),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.264172)
+            LAMBDA_TO_METRIC: lambda x: (x * 3.78541),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 3.78541)
         },
         {
             FORMAT_METRIC: "liters",
             FORMAT_IMPERIAL: "cubic feet",
             LATEX_METRIC: r'''liters''',
             LATEX_IMPERIAL: r'''feet^3''',
-            LAMBDA_TO_METRIC: lambda x: (x * 0.035315),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.035315)
+            LAMBDA_TO_METRIC: lambda x: (x * 28.31685),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 28.31685)
         },
         {
             FORMAT_METRIC: "cubic meters",
             FORMAT_IMPERIAL: "cubic feet",
             LATEX_METRIC: r'''meters^3''',
             LATEX_IMPERIAL: r'''feet^3''',
-            LAMBDA_TO_METRIC: lambda x: (x * 35.31467),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 35.31467)
+            LAMBDA_TO_METRIC: lambda x: (x * 0.0283168),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.0283168)
         },
         {
             FORMAT_METRIC: "cubic meters",
             FORMAT_IMPERIAL: "gallons",
             LATEX_METRIC: r'''meters^3''',
             LATEX_IMPERIAL: r'''gallons''',
-            LAMBDA_TO_METRIC: lambda x: (x * 264.172),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 264.172)
+            LAMBDA_TO_METRIC: lambda x: (x * 0.00378541),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.00378541)
         },
         {
             FORMAT_METRIC: "cubic cm",
             FORMAT_IMPERIAL: "cubic in",
             LATEX_METRIC: r'''centimeters^3''',
             LATEX_IMPERIAL: r'''inches^3''',
-            LAMBDA_TO_METRIC: lambda x: (x * 0.0163870),
-            LAMBDA_TO_IMPERIAL: lambda x: (x / 0.0163870)
+            LAMBDA_TO_METRIC: lambda x: (x * 16.387064),
+            LAMBDA_TO_IMPERIAL: lambda x: (x / 16.387064)
         }
     ]
 }
 
-st.set_page_config(page_title="Unit Converter", 
-                   page_icon="📏",
-                   layout="wide")
+st.set_page_config(page_title="Unit Converter", page_icon="📏", layout="wide")
 
 _mode: str = MODE_I2M
 _controls, _output = st.columns([1,1])
@@ -303,7 +301,7 @@ def append_to_output(text: str) -> None:
     st.session_state.output_text += f"{text}\n"
     return
 
-def home() -> None:
+def main() -> None:
     global _mode
 
     with st.sidebar:
@@ -311,15 +309,11 @@ def home() -> None:
 
     with _controls:
         st.subheader("Convert",divider=True)
-
         _mode = st.radio("Select mode", [MODE_I2M, MODE_M2I])
-
         display(conversion)
 
     with _output:
-        st.text_area("",
-                     value=st.session_state.output_text,
-                     height=400)
+        st.text_area("",value=st.session_state.output_text,height=400)
         if st.button("Clear Output"):
             st.session_state.output_text = ""
 
@@ -329,7 +323,6 @@ def display(unit: str) -> None:
     st.subheader(f"{unit}")
 
     conversions = units[unit]
-
     label_to_conversion = {}
     options = []
 
@@ -342,10 +335,7 @@ def display(unit: str) -> None:
         options.append(label)
         label_to_conversion[label] = conversion
 
-    label = st.selectbox("", 
-                          index=None,
-                          placeholder="Select conversion",
-                          options=options)
+    label = st.selectbox("", index=None, placeholder="Select conversion", options=options)
     
     if label is not None:
         conversion = label_to_conversion[label]
@@ -392,4 +382,4 @@ def display(unit: str) -> None:
     return
 
 if __name__ == "__main__":
-    home()
+    main()
