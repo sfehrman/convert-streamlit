@@ -183,4 +183,4 @@ convert/etc/jupyter/nbconfig/notebook.d/pydeck.json
 convert/share/jupyter/nbextensions/pydeck/extensionRequires.js
 convert/share/jupyter/nbextensions/pydeck/index.js
 convert/share/jupyter/nbextensions/pydeck/index.js.map
-convert_2.1.c
+cconvert
